@@ -3,10 +3,8 @@ import cv2
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-# To capture video from webcam.
+# Capture video from webcam.
 cam = cv2.VideoCapture(0)
-# To use a video file as input
-# cam = cv2.VideoCapture('filename.mp4')
 
 while True:
     # Read the frame
